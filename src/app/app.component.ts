@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,6 @@ import { Component, signal } from '@angular/core';
   // Si tienes app.component.css, descomenta esta línea:
   // styleUrls: ['./app.component.css']
 })
-export class App {
-  protected readonly title = signal('prueba');
-}
 export class AppComponent {
   name = 'Dylan Damian Almaguer Acuña';
   specialty = 'Desarrollo de Software';
