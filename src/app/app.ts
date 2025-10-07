@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'dylan-almaguer-root',
+  templateUrl: './dylan_almaguer.component.html',
   // Usa styles.css global → no necesitas app.component.css
   // Si tienes app.component.css, descomenta esta línea:
   // styleUrls: ['./app.component.css']

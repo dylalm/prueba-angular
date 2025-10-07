@@ -1,6 +1,5 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { App } from './app/app';
+import { DylanAlmaguerComponent } from './app/dylan_almaguer.component';
 
-bootstrapApplication(App, appConfig)
-  .catch((err) => console.error(err));
+bootstrapApplication(DylanAlmaguerComponent)
+  .catch(err => console.error(err));
